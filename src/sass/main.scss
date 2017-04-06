@@ -23,6 +23,12 @@ a.card {
 	border: $uikit-borderize;
 	background-color: $uikit-colour-Background;
 
+	&:hover .uikit-cta-link {
+		&:after {
+			margin: 0 uikit-space( 0.1 ) 0 uikit-space( 0.4 );
+		}
+	}
+
 	.card__top {
 		display: block;
 		padding: uikit-space( 0.5 );
