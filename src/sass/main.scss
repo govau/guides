@@ -47,3 +47,18 @@ a.card {
 		border-bottom-left-radius: $uikit-border-radius;
 	}
 }
+
+.coat {
+	display: block;
+	margin: 0 auto 1.5em auto;
+	max-width: 100%;
+	width: 135px;
+}
+
+.uikit-footer__end {
+	text-align: center;
+
+	p {
+		max-width: none;
+	}
+}
